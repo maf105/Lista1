@@ -1,0 +1,87 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern} % Fonte Latin Modern
+\usepackage[T1]{fontenc} % Codificação da Saída
+\usepackage[brazil]{babel}
+\usepackage{subfig}
+\usepackage{graphicx}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{ifthen}
+\newboolean{firstanswerofthechapter}  
+\usepackage{xcolor}
+\colorlet{lightcyan}{cyan!40!white}
+\usepackage{chngcntr}
+\usepackage{stackengine}
+\usepackage{tasks}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{float}
+\newlength{\longestlabel}
+\settowidth{\longestlabel}{\bfseries viii.}
+%\settasks{counter-format={tsk[r].}, label-format={\bfseries}, label-width=\longestlabel,
+    %item-indent=0pt, label-offset=2pt, column-sep={10pt}}
+		
+% \setcounter{secnumdepth}{0} \setlength{\topmargin}{0cm}
+% \setlength{\headsep}{-2cm} \setlength{\textwidth}{17.5cm}
+% \setlength{\textheight}{23cm} \setlength{\oddsidemargin}{-0.8cm}
+% \setlength{\evensidemargin}{0cm} \setlength{\footskip}{-1.5cm}
+
+\usepackage[left=1.5cm,right=1.5cm,top=2cm,bottom=0.5cm,includefoot]{geometry}
+		
+\usepackage[lastexercise,answerdelayed]{exercise}
+%\counterwithin{Exercise}{chapter}
+%\counterwithin{Answer}{chapter}
+%\renewcounter{Exercise}[chapter]
+%\newcommand{\QuestionNB}{\bfseries\arabic{Question}.\ }
+%\renewcommand{\ExerciseName}{Exercício}
+%\renewcommand{\ExerciseHeader}{\noindent\def\stackalignment{l}% code from https://tex.stackexchange.com/a/195118/101651
+    %\stackunder[0pt]{\colorbox{cyan}{\textcolor{white}{\textbf{\LARGE\ExerciseHeaderNB\;\large\ExerciseName}}}}{\textcolor{lightcyan}{\rule{\linewidth}{2pt}}}\medskip}
+\renewcommand{\ExerciseName}{Exercícios}
+\renewcommand{\ExerciseHeader}{\noindent\def\stackalignment{l}% code from https://tex.stackexchange.com/a/195118/101651
+    \stackunder[0pt]{\colorbox{gray}{\textcolor{white}{\textbf{\large\ExerciseName}}}}{\textcolor{lightgray}{\rule{\linewidth}{2pt}}}\medskip}
+%\renewcommand{\AnswerName}{Exercises}
+%\renewcommand{\AnswerHeader}{\ifthenelse{\boolean{firstanswerofthechapter}}%
+    %{\bigskip\noindent\textcolor{cyan}{\textbf{CHAPTER \thechapter}}\newline\newline%
+        %\noindent\bfseries\emph{\textcolor{cyan}{\AnswerName\ \ExerciseHeaderNB, page %
+                %\pageref{\AnswerRef}}}\smallskip}
+    %{\noindent\bfseries\emph{\textcolor{cyan}{\AnswerName\ \ExerciseHeaderNB, page \pageref{\AnswerRef}}}\smallskip}}
+%\setlength{\QuestionIndent}{16pt}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\begin{Exercise}
+
+\Question Observou-se, em um estudo sobre a quantidade de cartões amarelos recebidos por jogadores de dois times em um campeonato regional com 25 jogos os números abaixo:
+\begin{table}[h]
+ \begin{minipage}{.5\textwidth}
+ \centering
+ \caption{Tabela da Esquerda}
+ \begin{tabular}{ccc}
+ \toprule
+ col1&col2&col3\\ \midrule
+ 100&200&300\\
+ 100&200&300\\
+ 100&200&300\\ \bottomrule
+ \end{tabular}
+  
+ \end{minipage} 
+ \begin{minipage}{.5\textwidth}
+ \centering
+ \caption{Tabela da Direita}
+ \begin{tabular}{ccc}
+ \toprule
+ col1&col2&col3\\ \midrule
+ 100&200&300\\
+ 100&200&300\\
+ 100&200&300\\ \bottomrule
+ \end{tabular}
+  
+ \end{minipage}% 
+\end{table}
+
+\end{Exercise}
+\end{document}

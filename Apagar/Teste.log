@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.26)  10 AUG 2018 18:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.26)  10 AUG 2018 16:09
 entering extended mode
-**./Lista1.tex
-(Lista1.tex
+**./Teste.tex
+(Teste.tex
 LaTeX2e <2018-04-01> patch level 5
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
@@ -944,8 +944,8 @@ LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
-)))) (Lista1.aux)
-\openout1 = `Lista1.aux'.
+)))) (Teste.aux)
+\openout1 = `Teste.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
@@ -1047,125 +1047,65 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(Lista1-concordance.tex)
-Package epstopdf Info: Source file: <Figuras/brasaoufv.eps>
-(epstopdf)                    date: 2005-11-03 11:44:20
-(epstopdf)                    size: 296259 bytes
-(epstopdf)             Output file: <Figuras/brasaoufv-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-08-08 11:34:33
-(epstopdf)                    size: 8538 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figuras/brasaoufv-eps-conve
-rted-to.pdf Figuras/brasaoufv.eps>
-(epstopdf)             \includegraphics on input line 62.
-Package epstopdf Info: Output file is already uptodate.
-<Figuras/brasaoufv-eps-converted-to.pdf, id=2, 73.27374pt x 60.225pt>
-File: Figuras/brasaoufv-eps-converted-to.pdf Graphic file (type pdf)
-<use Figuras/brasaoufv-eps-converted-to.pdf>
-Package pdftex.def Info: Figuras/brasaoufv-eps-converted-to.pdf  used on input 
-line 62.
-(pdftex.def)             Requested size: 73.27354pt x 60.22484pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 63.
+(Teste-concordance.tex)
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 64.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 63.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 64.
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 63.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 64.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 63.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 64.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 63.
+(Font)              <10> on input line 64.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 63.
+(Font)              <7> on input line 64.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 63.
-LaTeX Font Info:    Try loading font information for U+msa on input line 63.
+(Font)              <5> on input line 64.
+LaTeX Font Info:    Try loading font information for U+msa on input line 64.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 63.
+LaTeX Font Info:    Try loading font information for U+msb on input line 64.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-Package amsmath Warning: Foreign command \atop;
-(amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 169.
-
-
-Overfull \hbox (21.68127pt too wide) in paragraph at lines 184--184
-|$[]$| 
- []
-
-
-Overfull \hbox (29.99268pt too wide) in paragraph at lines 219--219
- [] 
- []
-
-
-Overfull \hbox (2.20982pt too wide) in paragraph at lines 219--219
-|\T1/aer/m/n/10 m) 
- []
-
-
-Overfull \hbox (2.21996pt too wide) in paragraph at lines 223--248
+Overfull \hbox (2.21996pt too wide) in paragraph at lines 61--85
 []$[]$ $[]$ 
- []
-
-
-Overfull \hbox (29.99268pt too wide) in paragraph at lines 305--305
- [] 
- []
-
-
-Overfull \hbox (1.97133pt too wide) in paragraph at lines 360--360
-|\T1/aer/m/n/10 Sorteado ao acaso um dos 25 fun-ci-o-ná-rios, qual a pro-ba-bi-
-li-dade de que ele te-nha ob-tido grau A em Metodologia?| 
  []
 
 [1
 
-{C:/Users/fsbma/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Figuras/b
-rasaoufv-eps-converted-to.pdf>] [2] [3] [4] [5] (Lista1.aux) ) 
+{C:/Users/fsbma/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(Teste.aux) ) 
 Here is how much of TeX's memory you used:
- 18076 strings out of 492973
- 322469 string characters out of 3135932
- 456099 words of memory out of 12000000
- 21682 multiletter control sequences out of 15000+200000
- 562552 words of font info for 66 fonts, out of 3000000 for 9000
+ 18051 strings out of 492973
+ 322115 string characters out of 3135932
+ 377096 words of memory out of 12000000
+ 21672 multiletter control sequences out of 15000+200000
+ 552933 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,12n,63p,866b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files
-/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts
-/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-
-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
-lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi5.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/lm/lmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmsy7.pfb>
-Output written on Lista1.pdf (5 pages, 170561 bytes).
+ 61i,12n,63p,865b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on Teste.pdf (1 page, 27486 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 15 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 10 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5 words of extra memory for PDF output out of 10000 (max. 10000000)
 

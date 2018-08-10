@@ -1,7 +1,9 @@
 \documentclass{report}
 \usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
+\usepackage{lmodern} % Fonte Latin Modern
+\usepackage[T1]{fontenc} % Codificação da Saída
 \usepackage[brazil]{babel}
+\usepackage{subfig}
 \usepackage{graphicx}
 \usepackage{amsfonts}
 \usepackage{amssymb}
@@ -15,6 +17,7 @@
 \usepackage{stackengine}
 \usepackage{tasks}
 \usepackage{multirow}
+\usepackage{booktabs}
 \usepackage{float}
 \newlength{\longestlabel}
 \settowidth{\longestlabel}{\bfseries viii.}
@@ -187,6 +190,210 @@ $\newline$
 \task ${\displaystyle \sum_{i=1}^{3}\left(X_{i}-2\right)\left(Y_{i}-5\right)}$
 \end{tasks}
 
+\newpage
+
+\Question Identifique cada uma das variáveis seguintes como quantitativa, qualitativa
+e como contínua, discreta, nominal, ordinal.
+
+\begin{tasks}
+\task O número de vitórias do corinthians no ano de 2017.
+ \task A concentração de impurezas em um copo de água, em mg, por litro.
+ \task A quantidade de manchas em uma camisa.
+ \task O tempo de reação a um estímulo qualquer.
+ \task A resposta de um indivíduo a questão: ``Qual a sua origem?''
+ \task Sua idade?
+ \task A vazão de uma torneira em litros por segundo.
+ \task A resposta a uma pergunta com as opções de resposta:
+ \begin{enumerate}
+ \item[i)] Concordo plenamente;
+\item[ii)] Concordo;
+\item[iii)] Discordo;
+\item[iv)] Discordo totalmente;
+\end{enumerate}
+\task o número de moradores de uma cidade.
+\task A sua temperatura em um momento de febre.
+\task a nota de sua primeira prova de Estatística.
+\task Sua formação.
+\task o número de derrotas do Atlético Mineiro nos últimos 50 anos.
+\end{tasks}
+$\newline$
+\Question Observou-se, em um estudo sobre a quantidade de cartões amarelos recebidos por jogadores de dois times em um campeonato regional com 25 jogos os números abaixo:
+\begin{table}[H]
+ \begin{minipage}{.5\textwidth}
+ \centering
+ \caption{Torresmo FC}
+ \begin{tabular}{|c|c|c|c|c|}
+ \hline
+  1&2&4&4&7\\ \hline
+  3&3&2&4&5\\ \hline
+  2&4&3&5&3\\ \hline
+  2&4&3&6&5\\ \hline
+  5&6&4&6&5\\ \hline
+ \end{tabular}
+  
+ \end{minipage} 
+ \begin{minipage}{.5\textwidth}
+ \centering
+ \caption{Tá-lento FC}
+ \begin{tabular}{|c|c|c|c|c|}
+ \hline
+  1&7&7&6&1\\ \hline
+  2&6&1&7&2\\ \hline
+  1&3&2&7&5\\ \hline
+  6&1&7&4&1\\ \hline
+  5&7&6&3&2\\ \hline
+ \end{tabular}
+ \end{minipage}% 
+\end{table}
+
+\begin{tasks}
+\task Construa uma distribuição de frequências para as 50 observações.
+\task Construa uma distribuição de frequências para cada time.
+\task Represente graficamente cada uma das distribuições.
+\task Comente os resultados.
+\end{tasks}
+$\newline$
+\Question A tabela abaixo apresenta a nota de 100 alunos em uma disciplina online.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{cccccccccc}
+\hline
+83	&	52	&	60	&	75	&	48	&	73	&	49	&	77	&	78	&	89	\\
+95	&	91	&	54	&	67	&	88	&	73	&	87	&	66	&	84	&	56	\\
+81	&	67	&	68	&	60	&	81	&	77	&	70	&	71	&	78	&	54	\\
+92	&	56	&	81	&	93	&	48	&	93	&	70	&	63	&	59	&	94	\\
+49	&	54	&	89	&	51	&	61	&	69	&	89	&	64	&	99	&	97	\\
+76	&	73	&	71	&	51	&	72	&	61	&	84	&	59	&	69	&	82	\\
+52	&	53	&	89	&	82	&	75	&	58	&	67	&	100	&	77	&	56	\\
+58	&	72	&	74	&	91	&	71	&	74	&	41	&	59	&	64	&	68	\\
+51	&	71	&	80	&	80	&	42	&	92	&	76	&	76	&	65	&	57	\\
+68	&	57	&	49	&	96	&	68	&	55	&	70	&	59	&	60	&	77	\\
+\hline
+\end{tabular}
+\end{table}
+\begin{tasks}
+\task Construa uma tabela de distribuição de frequências.
+\task Faça uma distribuição gráfica para a distribuição de frequências.
+\task Calcule a média, a mediana e o desvio-padrão.
+\task Apresente um histograma dos dados, um diagrama de ramos e folhas, um esquema de cinco números e um boxplot.
+\task Comente os resultados.
+\end{tasks}
+$\newline$
+\Question Os pesos em kg de um conjunto de 25 pessoas, já ordenados do menor para o maior, são:
+\begin{table}[H]
+\centering
+\begin{tabular}{ccccc}
+\hline
+10,37	&	24,82	&	32,50	&	77,85	&	85,24	\\
+15,20	&	29,95	&	33,88	&	79,20	&	86,16	\\
+20,87	&	31,09	&	40,00	&	80,15	&	90,87	\\
+21,89	&	31,44	&	70,20	&	80,45	&	91,47	\\
+23,52	&	32,43	&	76,50	&	81,54	&	93,38	\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{tasks}
+\task Calcule a mediana e questione a sua representatividade neste contexto;
+\task Verifique a instabilidade da mediana neste caso supondo a entrada ao grupo de mais uma pessoa nas duas situações seguintes:
+\begin{enumerate}
+\item[i)]  A pessoa pesa 20 kg;
+\item[ii)] A pessoa pesa 80 kg;
+\end{enumerate}
+\end{tasks}
+$\newline$
+\Question
+
+\begin{tasks}
+\task Esboce um histograma onde média, mediana e moda coincidam;
+\task Esboce um histograma onde média e mediana coincidam, mas não a moda;
+\task Esboce os histogramas de duas variáveis $X$ e $Y$ com as mesmas médias mas com variâncias diferentes;
+\end{tasks}
+$\newline$
+\Question Dispomos de uma relação de 200 aluguéis de imóveis urbanos e uma relação de 100
+aluguéis rurais. Conforme distribuição abaixo:
+\begin{table}[H]
+\centering
+\begin{tabular}{c|c|c}
+\hline
+Classe de aluguéis (codificados)& Zona Urbana & Zona rural\\
+\hline
+$2|-3$  &10&30\\
+$3|-5$  &40&50\\
+$5|-7$  &80&15\\
+$7|-10$ &50&05\\
+$10|-15$&20& 0\\
+\hline
+Total&200&100\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{tasks}
+\task Construa os histogramas das duas distribuições.
+\task Com base nos histogramas, discuta e compare as duas distribuições.
+\end{tasks}
+
+\newpage
+
+\Question A MB Indústria e Comércio, desejando melhorar o nível de seus funcionários em cargos de chefia, montou um curso experimental e indicou 25 funcionários para a primeiraturma. Os dados referentes à seção a que pertencem, notas e graus obtidos no curso estão na tabela a seguir. Como havia dúvidas quanto à adoção de um único critério de
+avaliação, cada instrutor adotou seu próprio sistema de aferição. Usando dados daquela tabela, responda às 
+questões:
+
+\begin{tasks}
+\task Após observar atentamente cada variável, e com o intuito de resumi-las, como você
+identificaria (qualitativa ordinal ou nominal e quantitativa discreta ou contínua) cada
+uma das 9 variáveis listadas?
+\task Compare e indique as diferenças existentes entre as distribuições das variáveis Direito,
+Política e Estatística.
+\task Construa o histograma para as notas da variável Redação.
+\task Construa a distribuição de freqüências da variável Metodologia e faça um gráfico
+para indicar essa distribuição.
+\task Sorteado ao acaso um dos 25 funcionários, qual a probabilidade de que ele tenha
+obtido grau A em Metodologia?
+\task Se, em vez de um, sorteássemos dois, a probabilidade de que ambos tivessem tido A
+em Metodologia é maior ou menor do que a resposta dada em (e)?
+\task Como é o aproveitamento dos funcionários na disciplina Estatística, segundo a seção
+a que eles pertencem?
+\end{tasks}
+
+\begin{table}[H]
+\centering
+\resizebox{0.9\textwidth}{!}{%
+\begin{tabular}{c|c|c|c|c|c|c|c|c|c}
+Funcionário&Seção &Administração  &Direito &Redação &Estatística  &Inglês &Metodologia &Política  &Economia\\
+\hline
+1  &P &8.0  &9.0 &8.6 &9.0  &B &A &9.0  &8.5\\
+2  &P &8.0  &9.0 &7.0 &9.0  &B &C &6.5  &8 0\\
+3  &P &8.0  &9.0 &8.0 &8.0  &D &B &9.0  &8.5\\
+4  &P &6.0  &9.0 &8.6 &8.0  &D &C &6.0  &8.5\\
+5  &P &8.0  &9.0 &8.0 &9.0  &A &A &6.5  &9.0\\
+6  &P &8.0  &9.0 &8.5 &10.0 &B &A &6.5  &9.5\\
+7  &P &8.0  &9.0 &8.2 &8.0  &D &C &9.0  &7.0\\
+8  &T &10.0 &9.0 &7.5 &8.0  &B &C &6.0  &8.5\\
+9  &T &8.0  &9.0 &9.4 &9.0  &B &B &10.0 &8.0\\
+10 &T &10.0 &9.0 &7.9 &8.0  &B &C &9.0  &7.5\\
+11 &T &8.0  &9.0 &8.6 &10.0 &C &B &10.0 &8.5\\
+12 &T &8.0  &9.0 &8.3 &7.0  &D &B &6.5  &8.0\\
+13 &T &6.0  &9.0 &7.0 &7.0  &B &C &6.0  &8.5\\
+14 &T &10.0 &9.0 &8.6 &9.0  &A &B &10.0 &7.5\\
+15 &V &8.0  &9.0 &8.6 &9.0  &C &B &10.0 &7.0\\
+16 &V &8.0  &9.0 &9.5 &7.0  &A &A &9.0  &7.5\\
+17 &V &8.0  &9.0 &6.3 &8.0  &D &C &10.0 &7.5\\
+18 &V &6.0  &9.0 &7.6 &9.0  &C &C &6.0  &8.5\\
+19 &V &6.0  &9.0 &6.8 &4.0  &D &C &6.0  &9.5\\
+20 &V &6.0  &9.0 &7.5 &7.0  &C &B &6.0  &8.5\\
+21 &V &8.0  &9.0 &7.7 &7.0  &D &B &6.5  &8.0\\
+22 &V &6.0  &9.0 &8.7 &8.0  &C &A &6.0  &9.0\\
+23 &V &8.0  &9.0 &7.3 &10.0 &C &C &9.0  &7.0\\
+24 &V &8.0  &9.0 &8.5 &9.0  &A &A &6.5  &9.0\\
+25 &V &8.0  &9.0 &7.0 &9.0  &B &A &9.0  &8.5\\
+\hline
+\multicolumn{10}{c}{(P = departamento pessoal, T = seção técnica e V = seção de vendas)}
+\end{tabular}
+}
+\end{table}
 \end{Exercise}
 
 \end{document}
